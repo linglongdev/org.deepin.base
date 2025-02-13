@@ -8,22 +8,27 @@ case $ARCH in
 amd64)
     LINGLONG_ARCH="x86_64"
     TRIPLET_LIST="x86_64-linux-gnu"
+    ARCH_PACKAGE=""
     ;;
 arm64)
     LINGLONG_ARCH="arm64"
     TRIPLET_LIST="aarch64-linux-gnu"
+    ARCH_PACKAGE=""
     ;;
 loongarch64)
     LINGLONG_ARCH="loongarch64"
     TRIPLET_LIST="loongarch64-linux-gnu"
+    ARCH_PACKAGE=""
     ;;
 loong64)
     LINGLONG_ARCH="loong64"
     TRIPLET_LIST="loongarch64-linux-gnu"
+    ARCH_PACKAGE="liblol"
     ;;
 sw64)
     LINGLONG_ARCH="sw64"
     TRIPLET_LIST="sw_64-linux-gnu"
+    ARCH_PACKAGE=""
     ;;
 "") echo "enter an architecture, like ./build_base.sh amd64" && exit ;;
 *) echo "unknow arch \"$ARCH\", supported arch: amd64, arm64, loongarch64, loong64" && exit ;;
@@ -33,8 +38,8 @@ export LINGLONG_ARCH
 
 rm -rf output || true
 
-mkosi --force --output=image_binary
-mkosi --force --output=image_develop -p elfutils,file,gcc,g++,gdb,gdbserver,cmake,make,automake,patchelf
+mkosi --force --output=image_binary -p "$ARCH_PACKAGE"
+mkosi --force --output=image_develop -p "$ARCH_PACKAGE" -p elfutils,file,gcc,g++,gdb,gdbserver,cmake,make,automake,patchelf
 
 # 清理仓库中已存在的base
 # shellcheck source=/dev/null
@@ -50,7 +55,7 @@ for module in binary develop; do
     # 生成linglong-triplet-list（记录架构信息）
     echo "$TRIPLET_LIST" >"output/$module/files/etc/linglong-triplet-list"
     # 生成packages.list(记录deb包列表信息)
-    cat output/$module/files/var/lib/dpkg/status|grep ^Package: > "output/$module/files/packages.list"
+    cat output/$module/files/var/lib/dpkg/status | grep ^Package: >"output/$module/files/packages.list"
     # 生成info.json(记录玲珑包信息)
     MODULE=$module envsubst <templates/info.template.json >"output/$module/info.json"
     # 生成appid.install(记录玲珑包文件列表)
