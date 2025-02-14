@@ -38,8 +38,12 @@ export LINGLONG_ARCH
 
 rm -rf output || true
 
-mkosi --force --output=image_binary -p "$ARCH_PACKAGE"
-mkosi --force --output=image_develop -p "$ARCH_PACKAGE" -p elfutils,file,gcc,g++,gdb,gdbserver,cmake,make,automake,patchelf
+echo "[Content]" >  mkosi.local.conf
+echo "Packages=$ARCH_PACKAGE" >> mkosi.local.conf
+
+mkosi --force --output=image_binary
+echo "Packages=elfutils,file,gcc,g++,gdb,gdbserver,cmake,make,automake,patchelf" >>  mkosi.local.conf
+mkosi --force --output=image_develop
 
 # 清理仓库中已存在的base
 # shellcheck source=/dev/null
@@ -64,6 +68,6 @@ for module in binary develop; do
     cp "linglong.yaml" "output/$module/"
 done
 
-ll-builder list | grep "$APPID/$VERSION" | xargs ll-builder remove
-ll-builder import-dir output/binary
-ll-builder import-dir output/develop
+# ll-builder list | grep "$APPID/$VERSION" | xargs ll-builder remove
+# ll-builder import-dir output/binary
+# ll-builder import-dir output/develop

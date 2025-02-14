@@ -12,3 +12,4 @@ linglong.yaml
 /*.list
 /*.tar
 output
+mkosi.local.conf
