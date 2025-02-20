@@ -38,11 +38,11 @@ export LINGLONG_ARCH
 
 rm -rf output || true
 
-echo "[Content]" >  mkosi.local.conf
-echo "Packages=$ARCH_PACKAGE" >> mkosi.local.conf
+echo "[Content]" >mkosi.local.conf
+echo "Packages=$ARCH_PACKAGE" >>mkosi.local.conf
 
 mkosi --force --output=image_binary
-echo "Packages=elfutils,file,gcc,g++,gdb,gdbserver,cmake,make,automake,patchelf" >>  mkosi.local.conf
+echo "Packages=apt,elfutils,file,gcc,g++,gdb,gdbserver,cmake,make,automake,patchelf" >>mkosi.local.conf
 mkosi --force --output=image_develop
 
 # 清理仓库中已存在的base
