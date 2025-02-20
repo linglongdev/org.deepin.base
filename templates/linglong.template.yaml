@@ -6,7 +6,7 @@ package:
   id: $APPID
   name: deepin-base
   version: $VERSION
-  kind: runtime
+  kind: base
   description: |
     deepin base environment.
 

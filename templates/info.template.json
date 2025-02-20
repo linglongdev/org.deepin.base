@@ -4,7 +4,7 @@
   "arch": ["$LINGLONG_ARCH"],
   "base": "org.deepin.empty/20.0.0",
   "description": "deepin base environment.\n",
-  "kind": "runtime",
+  "kind": "base",
   "module": "$MODULE",
   "name": "deepin-base",
   "overlayfs": {},
