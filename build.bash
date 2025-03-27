@@ -59,7 +59,7 @@ for module in binary develop; do
     # 生成linglong-triplet-list（记录架构信息）
     echo "$TRIPLET_LIST" >"output/$module/files/etc/linglong-triplet-list"
     # 生成packages.list(记录deb包列表信息)
-    cat output/$module/files/var/lib/dpkg/status | awk '/^Package:/ {pkg=$2} /^Version:/ {print pkg " " $2}' >"output/$module/files/packages.list"
+    cat output/$module/files/var/lib/dpkg/status | awk '/^Package:/ {pkg=$2} /^Version:/ {print "Package: " pkg " " $2}' >"output/$module/files/packages.list"
     # 生成info.json(记录玲珑包信息)
     MODULE=$module envsubst <templates/info.template.json >"output/$module/info.json"
     # 生成appid.install(记录玲珑包文件列表)
