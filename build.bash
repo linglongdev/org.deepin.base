@@ -8,28 +8,28 @@ case $ARCH in
 amd64)
     LINGLONG_ARCH="x86_64"
     TRIPLET_LIST="x86_64-linux-gnu"
-    ARCH_PACKAGE=""
     ;;
 arm64)
     LINGLONG_ARCH="arm64"
     TRIPLET_LIST="aarch64-linux-gnu"
-    ARCH_PACKAGE=""
     ;;
 loongarch64)
     LINGLONG_ARCH="loongarch64"
     TRIPLET_LIST="loongarch64-linux-gnu"
-    ARCH_PACKAGE=""
     ;;
 loong64)
     LINGLONG_ARCH="loong64"
     TRIPLET_LIST="loongarch64-linux-gnu"
-    ARCH_PACKAGE="liblol"
     ;;
 sw64)
     LINGLONG_ARCH="sw64"
     TRIPLET_LIST="sw_64-linux-gnu"
-    ARCH_PACKAGE=""
     ;;
+mips64)
+    LINGLONG_ARCH="mips64"
+    TRIPLET_LIST="mips64el-linux-gnuabi64"
+    ;;
+
 "") echo "enter an architecture, like ./build_base.sh amd64" && exit ;;
 *) echo "unknow arch \"$ARCH\", supported arch: amd64, arm64, loongarch64, loong64" && exit ;;
 esac
@@ -37,9 +37,6 @@ esac
 export LINGLONG_ARCH
 
 rm -rf output || true
-
-echo "[Content]" >mkosi.local.conf
-echo "Packages=$ARCH_PACKAGE" >>mkosi.local.conf
 
 mkosi --force --output=image_binary
 echo "Packages=apt,elfutils,file,gcc,g++,gdb,gdbserver,cmake,make,automake,patchelf" >>mkosi.local.conf
