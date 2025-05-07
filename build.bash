@@ -2,6 +2,10 @@
 set -e
 set -x
 
+LOCAL_CONFIG=mkosi.local.conf
+
+rm $LOCAL_CONFIG || true
+
 ARCH=$1
 
 case $ARCH in
@@ -24,6 +28,9 @@ loong64)
 sw64)
     LINGLONG_ARCH="sw64"
     TRIPLET_LIST="sw_64-linux-gnu"
+    echo "[Distribution]" >>$LOCAL_CONFIG
+    echo "Release=snipe" >>$LOCAL_CONFIG
+    echo "LocalMirror=https://pools.uniontech.com/desktop-professional-V25" >>$LOCAL_CONFIG
     ;;
 mips64)
     LINGLONG_ARCH="mips64"
@@ -39,7 +46,8 @@ export LINGLONG_ARCH
 rm -rf output || true
 
 mkosi --force --output=image_binary
-echo "Packages=apt,elfutils,file,gcc,g++,gdb,gdbserver,cmake,make,automake,patchelf" >>mkosi.local.conf
+echo "[Content]" >> $LOCAL_CONFIG
+echo "Packages=apt,elfutils,file,gcc,g++,gdb,gdbserver,cmake,make,automake,patchelf" >> $LOCAL_CONFIG
 mkosi --force --output=image_develop
 
 # 清理仓库中已存在的base
