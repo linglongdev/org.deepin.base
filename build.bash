@@ -8,6 +8,8 @@ rm $LOCAL_CONFIG || true
 
 ARCH=$1
 
+skeleton_tree=mkosi.skeleton.deepin
+
 case $ARCH in
 amd64)
     LINGLONG_ARCH="x86_64"
@@ -28,9 +30,7 @@ loong64)
 sw64)
     LINGLONG_ARCH="sw64"
     TRIPLET_LIST="sw_64-linux-gnu"
-    echo "[Distribution]" >>$LOCAL_CONFIG
-    echo "Release=snipe" >>$LOCAL_CONFIG
-    echo "LocalMirror=https://pools.uniontech.com/desktop-professional-V25" >>$LOCAL_CONFIG
+    skeleton_tree="mkosi.skeleton.uniontech"
     ;;
 mips64)
     LINGLONG_ARCH="mips64"
@@ -45,10 +45,10 @@ export LINGLONG_ARCH
 
 rm -rf output || true
 
-mkosi --force --output=image_binary
+mkosi --force --skeleton-tree $skeleton_tree --output=image_binary
 echo "[Content]" >> $LOCAL_CONFIG
 echo "Packages=apt,elfutils,file,gcc,g++,gdb,gdbserver,cmake,make,automake,patchelf" >> $LOCAL_CONFIG
-mkosi --force --output=image_develop
+mkosi --force --skeleton-tree $skeleton_tree --output=image_develop
 
 # 清理仓库中已存在的base
 # shellcheck source=/dev/null
