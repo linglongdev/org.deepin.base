@@ -8,7 +8,7 @@ rm $LOCAL_CONFIG || true
 
 ARCH=$1
 
-skeleton_tree=mkosi.skeleton.deepin
+apt_tree=mkosi.apt.deepin
 
 case $ARCH in
 amd64)
@@ -30,7 +30,7 @@ loong64)
 sw64)
     LINGLONG_ARCH="sw64"
     TRIPLET_LIST="sw_64-linux-gnu"
-    skeleton_tree="mkosi.skeleton.uniontech"
+    apt_tree="mkosi.apt.uniontech"
     ;;
 mips64)
     LINGLONG_ARCH="mips64"
@@ -45,10 +45,13 @@ export LINGLONG_ARCH
 
 rm -rf output || true
 
-mkosi --force --skeleton-tree $skeleton_tree --output=image_binary
+# 旧版本使用skeleton-tree新版本使用sandbox-tree
+apt_tree_args_name=$(mkosi --help|grep sandbox &>/dev/null && echo --sandbox-tree || echo --skeleton-tree)
+
+mkosi --force "$apt_tree_args_name" $apt_tree --output=image_binary
 echo "[Content]" >> $LOCAL_CONFIG
 echo "Packages=apt,elfutils,file,gcc,g++,gdb,gdbserver,cmake,make,automake,patchelf" >> $LOCAL_CONFIG
-mkosi --force --skeleton-tree $skeleton_tree --output=image_develop
+mkosi --force "$apt_tree_args_name" $apt_tree --output=image_develop
 
 # 清理仓库中已存在的base
 # shellcheck source=/dev/null
