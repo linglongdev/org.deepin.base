@@ -22,13 +22,13 @@ package:
       directory: opt/extensions/com.glenfly.driver.display.arise
       allow_env:
         __EGL_VENDOR_LIBRARY_DIRS: /usr/share/glvnd/egl_vendor.d
-        LIBGL_DRIVERS_PATH: /usr/lib/x86_64-linux-gnu/dri
-        GBM_BACKENDS_PATH: /usr/lib/x86_64-linux-gnu/gbm
+        LIBGL_DRIVERS_PATH: /usr/lib/$TRIPLET_LIST/dri
+        GBM_BACKENDS_PATH: /usr/lib/$TRIPLET_LIST/gbm
     - name: org.deepin.driver.media.intel
       version: 25.0.0
       directory: opt/extensions/org.deepin.driver.media.intel
       allow_env:
-        LIBVA_DRIVERS_PATH: /usr/lib/x86_64-linux-gnu/dri
+        LIBVA_DRIVERS_PATH: /usr/lib/$TRIPLET_LIST/dri
 
 base: org.deepin.empty/20.0.0
 

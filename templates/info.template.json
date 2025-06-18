@@ -1,7 +1,9 @@
 {
   "schema_version": "1.0",
   "id": "$APPID",
-  "arch": ["$LINGLONG_ARCH"],
+  "arch": [
+    "$LINGLONG_ARCH"
+  ],
   "base": "org.deepin.empty/20.0.0",
   "description": "deepin base environment.\n",
   "kind": "base",
@@ -12,5 +14,35 @@
   "runtime": "latest",
   "size": 10485760,
   "version": "$VERSION",
-  "channel": "main"
+  "channel": "main",
+  "extensions": [
+    {
+      "name": "org.deepin.driver.display.nvidia",
+      "version": "1.0.0",
+      "directory": "opt/extensions/org.deepin.driver.display.nvidia",
+      "allow_env": {
+        "__EGL_VENDOR_LIBRARY_DIRS": "/usr/share/glvnd/egl_vendor.d",
+        "__EGL_EXTERNAL_PLATFORM_CONFIG_DIRS": "",
+        "VK_ADD_DRIVER_FILES": ""
+      }
+    },
+    {
+      "name": "com.glenfly.driver.display.arise",
+      "version": "1.0.0",
+      "directory": "opt/extensions/com.glenfly.driver.display.arise",
+      "allow_env": {
+        "__EGL_VENDOR_LIBRARY_DIRS": "/usr/share/glvnd/egl_vendor.d",
+        "LIBGL_DRIVERS_PATH": "/usr/lib/$TRIPLET_LIST/dri",
+        "GBM_BACKENDS_PATH": "/usr/lib/$TRIPLET_LIST/gbm"
+      }
+    },
+    {
+      "name": "org.deepin.driver.media.intel",
+      "version": "25.0.0",
+      "directory": "opt/extensions/org.deepin.driver.media.intel",
+      "allow_env": {
+        "LIBVA_DRIVERS_PATH": "/usr/lib/$TRIPLET_LIST/dri"
+      }
+    }
+  ]
 }

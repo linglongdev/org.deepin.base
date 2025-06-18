@@ -42,6 +42,7 @@ mips64)
 esac
 
 export LINGLONG_ARCH
+export TRIPLET_LIST
 
 rm -rf output || true
 
