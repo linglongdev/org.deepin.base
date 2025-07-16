@@ -19,13 +19,14 @@ arm64)
     LINGLONG_ARCH="arm64"
     TRIPLET_LIST="aarch64-linux-gnu"
     ;;
-loongarch64)
-    LINGLONG_ARCH="loongarch64"
-    TRIPLET_LIST="loongarch64-linux-gnu"
-    ;;
 loong64)
     LINGLONG_ARCH="loong64"
     TRIPLET_LIST="loongarch64-linux-gnu"
+    ;;
+loongarch64)
+    LINGLONG_ARCH="loongarch64"
+    TRIPLET_LIST="loongarch64-linux-gnu"
+    apt_tree="mkosi.apt.uniontech"
     ;;
 sw64)
     LINGLONG_ARCH="sw64"
@@ -35,6 +36,7 @@ sw64)
 mips64)
     LINGLONG_ARCH="mips64"
     TRIPLET_LIST="mips64el-linux-gnuabi64"
+    apt_tree="mkosi.apt.uniontech"
     ;;
 
 "") echo "enter an architecture, like ./build_base.sh amd64" && exit ;;

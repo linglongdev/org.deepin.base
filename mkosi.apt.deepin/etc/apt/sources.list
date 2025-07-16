@@ -1,1 +1,1 @@
-deb [trusted=yes] http://10.20.64.92:8080/testing25_daily stable main
+deb [trusted=yes] https://ci.deepin.com/repo/deepin/deepin-community/stable/ crimson/release main community

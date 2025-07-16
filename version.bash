@@ -1,2 +1,2 @@
 export APPID=org.deepin.base
-export VERSION="25.2.0.92"
+export VERSION="25.2.0.93"
