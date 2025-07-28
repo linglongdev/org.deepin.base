@@ -75,6 +75,10 @@ for module in binary develop; do
     bash -c "cd output/$module/files && find | sed 's|^.||'" >"output/$module/$APPID.install"
     # 保存linglong.yaml(记录玲珑包构建信息)
     cp "linglong.yaml" "output/$module/"
+    # 处理仓库sources.list, mkosi的不同版本表现不一致
+    rm output/$module/files/etc/apt/sources.list || true
+    rm output/$module/files/etc/apt/sources.list.d/* || true
+    cp $apt_tree/etc/apt/sources.list output/$module/files/etc/apt/sources.list
 done
 
 # ll-builder list | grep "$APPID/$VERSION" | xargs ll-builder remove
