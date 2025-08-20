@@ -1,2 +1,2 @@
 #!/bin/sh
-systemd-run --user --service-type=forking /usr/bin/xdg-open "${1}"
+systemd-run --user --service-type=forking /usr/bin/xdg-open "$@"
