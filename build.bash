@@ -65,10 +65,14 @@ for module in binary develop; do
     # mkosi使用subuid，为避免权限问题，先制作tar格式的rootfs，再手动解压
     mkdir -p output/$module/files
     tar -xf output/image_$module -C output/$module/files
+    # 保存清单文件
+    cp output/image_binary.manifest records/image_binary_${LINGLONG_ARCH}.manifest
+    cp output/image_develop.manifest records/image_develop_${LINGLONG_ARCH}.manifest
     # 生成linglong-triplet-list（记录架构信息）
     echo "$TRIPLET_LIST" >"output/$module/files/etc/linglong-triplet-list"
     # 生成packages.list(记录deb包列表信息)
-    cat output/$module/files/var/lib/dpkg/status | awk '/^Package:/ {pkg=$2} /^Version:/ {print "Package: " pkg " " $2}' >"output/$module/files/packages.list"
+    packagesFile="output/$module/files/packages.list"
+    cat output/$module/files/var/lib/dpkg/status | awk '/^Package:/ {pkg=$2} /^Version:/ {print "Package: " pkg " " $2}' >"$packagesFile"
     # 生成info.json(记录玲珑包信息)
     MODULE=$module envsubst <templates/info.template.json >"output/$module/info.json"
     # 生成appid.install(记录玲珑包文件列表)
