@@ -84,7 +84,3 @@ for module in binary develop; do
     rm output/$module/files/etc/apt/sources.list.d/* || true
     cp $apt_tree/etc/apt/sources.list output/$module/files/etc/apt/sources.list
 done
-
-# ll-builder list | grep "$APPID/$VERSION" | xargs ll-builder remove
-# ll-builder import-dir output/binary
-# ll-builder import-dir output/develop
