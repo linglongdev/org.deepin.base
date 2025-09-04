@@ -35,6 +35,7 @@ sw64)
 mips64)
     LINGLONG_ARCH="mips64"
     TRIPLET_LIST="mips64el-linux-gnuabi64"
+    apt_tree="mkosi.apt.uniontech"
     ;;
 
 "") echo "enter an architecture, like ./build_base.sh amd64" && exit ;;
