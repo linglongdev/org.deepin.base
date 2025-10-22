@@ -67,6 +67,15 @@
         "VK_ADD_DRIVER_FILES": "",
         "__EGL_VENDOR_LIBRARY_DIRS": "/usr/share/glvnd/egl_vendor.d"
       }
+    },
+    {
+        "GBM_BACKENDS_PATH": "/usr/lib/$TRIPLET_LIST/gbm",
+        "LIBGL_DRIVERS_PATH": "/usr/lib/$TRIPLET_LIST/dri",
+        "LIBVA_DRIVERS_PATH": "/usr/lib/$TRIPLET_LIST/dri",
+        "OCL_ICD_VENDORS": "/etc/OpenCL/vendors",
+        "VDPAU_DRIVER_PATH": "usr/lib/$TRIPLET_LIST/vdpau",
+        "VK_ADD_DRIVER_FILES": "",
+        "__EGL_VENDOR_LIBRARY_DIRS": "/usr/share/glvnd/egl_vendor.d"
     }
   ]
 }
