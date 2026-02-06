@@ -33,7 +33,9 @@
       "allow_env": {
         "__EGL_VENDOR_LIBRARY_DIRS": "/usr/share/glvnd/egl_vendor.d",
         "LIBGL_DRIVERS_PATH": "/usr/lib/$TRIPLET_LIST/dri",
-        "GBM_BACKENDS_PATH": "/usr/lib/$TRIPLET_LIST/gbm"
+        "GBM_BACKENDS_PATH": "/usr/lib/$TRIPLET_LIST/gbm",
+        "LIBVA_DRIVERS_PATH": "/usr/lib/$TRIPLET_LIST/dri",
+        "VDPAU_DRIVER_PATH": "/usr/lib/$TRIPLET_LIST/vdpau"
       }
     },
     {
