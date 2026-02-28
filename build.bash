@@ -65,7 +65,7 @@ envsubst <templates/linglong.template.yaml >"linglong.yaml"
 for module in binary develop; do
     # mkosi使用subuid，为避免权限问题，先制作tar格式的rootfs，再手动解压
     mkdir -p output/$module/files
-    tar -xf output/image_$module -C output/$module/files
+    tar --no-same-permissions -xf output/image_$module -C output/$module/files
     # 保存清单文件
     cp output/image_binary.manifest records/image_binary_${LINGLONG_ARCH}.manifest
     cp output/image_develop.manifest records/image_develop_${LINGLONG_ARCH}.manifest
