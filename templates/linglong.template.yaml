@@ -68,6 +68,16 @@ package:
         LIBVA_DRIVERS_PATH: /usr/lib/$TRIPLET_LIST/dri
         VK_ADD_DRIVER_FILES: ''
         __EGL_VENDOR_LIBRARY_DIRS: /usr/share/glvnd/egl_vendor.d
+    - name: cn.fantasy.driver.fantgpu.fh2m
+      version: 3.3.7
+      directory: opt/extensions/cn.fantasy.driver.fantgpu.fh2m
+      allow_env:
+        GBM_BACKENDS_PATH: /usr/lib/$TRIPLET_LIST/gbm
+        LIBGL_DRIVERS_PATH: /usr/lib/$TRIPLET_LIST/dri
+        LIBVA_DRIVERS_PATH: /usr/lib/$TRIPLET_LIST/dri
+        OCL_ICD_VENDORS: /etc/OpenCL/vendors
+        VK_ADD_DRIVER_FILES: ''
+        __EGL_VENDOR_LIBRARY_DIRS: /usr/share/glvnd/egl_vendor.d
 
 base: org.deepin.empty/20.0.0
 
