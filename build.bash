@@ -27,6 +27,10 @@ loong64)
     LINGLONG_ARCH="loong64"
     TRIPLET_LIST="loongarch64-linux-gnu"
     ;;
+riscv64)
+    LINGLONG_ARCH="riscv64"
+    TRIPLET_LIST="riscv64-linux-gnu"
+    ;;
 sw64)
     LINGLONG_ARCH="sw64"
     TRIPLET_LIST="sw_64-linux-gnu"
