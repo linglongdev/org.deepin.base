@@ -33,6 +33,8 @@
       "allow_env": {
         "__EGL_VENDOR_LIBRARY_DIRS": "/usr/share/glvnd/egl_vendor.d",
         "LIBGL_DRIVERS_PATH": "/usr/lib/$TRIPLET_LIST/dri",
+        "LIBVA_DRIVERS_PATH": "/usr/lib/$TRIPLET_LIST/dri",
+        "VDPAU_DRIVER_PATH": "/usr/lib/$TRIPLET_LIST/vdpau",
         "GBM_BACKENDS_PATH": "/usr/lib/$TRIPLET_LIST/gbm"
       }
     },
@@ -155,6 +157,28 @@
         "LIBGL_DRIVERS_PATH": "/usr/lib/$TRIPLET_LIST/dri",
         "LIBVA_DRIVERS_PATH": "/usr/lib/$TRIPLET_LIST/dri",
         "OCL_ICD_VENDORS": "/etc/OpenCL/vendors",
+        "VK_ADD_DRIVER_FILES": "",
+        "__EGL_VENDOR_LIBRARY_DIRS": "/usr/share/glvnd/egl_vendor.d"
+      }
+    },
+    {
+      "name": "cn.loongson.loonggpu.driver",
+      "version": "25.2.1",
+      "directory": "opt/extensions/cn.loongson.loonggpu.driver",
+      "allow_env": {
+        "LIBGL_DRIVERS_PATH": "/usr/lib/$TRIPLET_LIST/dri",
+        "LIBVA_DRIVERS_PATH": "/usr/lib/$TRIPLET_LIST/dri",
+        "__EGL_VENDOR_LIBRARY_DIRS": "/usr/share/glvnd/egl_vendor.d"
+      }
+    },
+    {
+      "name": "cn.com.phytium.d300m.driver",
+      "version": "25.2.1",
+      "directory": "opt/extensions/cn.com.phytium.d300m.driver",
+      "allow_env": {
+        "GBM_BACKENDS_PATH": "/usr/lib/$TRIPLET_LIST/gbm",
+        "LIBGL_DRIVERS_PATH": "/usr/lib/$TRIPLET_LIST/dri",
+        "LIBVA_DRIVERS_PATH": "/usr/lib/$TRIPLET_LIST/dri",
         "VK_ADD_DRIVER_FILES": "",
         "__EGL_VENDOR_LIBRARY_DIRS": "/usr/share/glvnd/egl_vendor.d"
       }
