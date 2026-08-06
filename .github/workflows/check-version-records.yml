@@ -1,0 +1,47 @@
+name: Check version.bash requires records update
+
+on:
+  pull_request:
+    paths:
+      - version.bash
+      - records/**
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout PR head
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+
+      - name: Fetch base ref
+        run: git fetch --depth 1 origin ${{ github.event.pull_request.base.sha }}
+
+      - name: Verify records updated when version.bash changed
+        shell: bash
+        run: |
+          set -uo pipefail
+          base="${{ github.event.pull_request.base.sha }}"
+          head="${{ github.event.pull_request.head.sha }}"
+          changed="$(git diff --name-only "${base}" "${head}")"
+          echo "changed files:"
+          echo "$changed"
+          version_changed=false
+          records_changed=false
+          while IFS= read -r f; do
+            if [[ "$f" == "version.bash" ]]; then
+              version_changed=true
+            fi
+            if [[ "$f" == records/* ]]; then
+              records_changed=true
+            fi
+          done <<< "$changed"
+          if [[ "$version_changed" == "true" && "$records_changed" == "false" ]]; then
+            echo "::error::version.bash was modified, but no file under records/ was updated."
+            echo "::error::Please rebuild the image and commit the updated records/*.manifest files together with the version bump."
+            exit 1
+          fi
+          echo "OK: version.bash and records/ are consistent"
