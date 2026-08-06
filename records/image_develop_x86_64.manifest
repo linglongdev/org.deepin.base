@@ -16,7 +16,7 @@
     {
       "type": "deb",
       "name": "adduser",
-      "version": "3.131-1deepin2",
+      "version": "3.138",
       "architecture": "all"
     },
     {
@@ -28,13 +28,13 @@
     {
       "type": "deb",
       "name": "apt",
-      "version": "2.8.0deepin5",
+      "version": "2.8.0deepin8",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "at-spi2-common",
-      "version": "2.50.0-1",
+      "version": "2.59.1-2deepin1",
       "architecture": "all"
     },
     {
@@ -82,49 +82,49 @@
     {
       "type": "deb",
       "name": "binutils",
-      "version": "2.41-6deepin10",
+      "version": "2.41-6deepin11",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "binutils-common",
-      "version": "2.41-6deepin10",
+      "version": "2.41-6deepin11",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "binutils-x86-64-linux-gnu",
-      "version": "2.41-6deepin10",
+      "version": "2.41-6deepin11",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "bluez",
-      "version": "5.71-1deepin3",
+      "version": "5.85-3deepin6",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "bluez-obexd",
-      "version": "5.71-1deepin3",
+      "version": "5.85-3deepin6",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "bsdextrautils",
-      "version": "2.40.4-3deepin4",
+      "version": "2.40.4-3deepin9",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "bsdutils",
-      "version": "1:2.40.4-3deepin4",
+      "version": "1:2.40.4-3deepin9",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "busybox",
-      "version": "1:1.36.1-7",
+      "version": "1:1.37.0-10.1",
       "architecture": "amd64"
     },
     {
@@ -172,7 +172,7 @@
     {
       "type": "deb",
       "name": "cpp-12",
-      "version": "12.3.0-17deepin15",
+      "version": "12.3.0-17deepin17",
       "architecture": "amd64"
     },
     {
@@ -196,73 +196,73 @@
     {
       "type": "deb",
       "name": "cups",
-      "version": "2.4.2-5deepin4",
+      "version": "2.4.16-1deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "cups-bsd",
-      "version": "2.4.2-5deepin4",
+      "version": "2.4.16-1deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "cups-client",
-      "version": "2.4.2-5deepin4",
+      "version": "2.4.16-1deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "cups-common",
-      "version": "2.4.2-5deepin4",
+      "version": "2.4.16-1deepin4",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "cups-core-drivers",
-      "version": "2.4.2-5deepin4",
+      "version": "2.4.16-1deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "cups-daemon",
-      "version": "2.4.2-5deepin4",
+      "version": "2.4.16-1deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "cups-filters",
-      "version": "1.28.17-3.1~deepin3",
+      "version": "1.28.17-3.1~deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "cups-filters-core-drivers",
-      "version": "1.28.17-3.1~deepin3",
+      "version": "1.28.17-3.1~deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "cups-ipp-utils",
-      "version": "2.4.2-5deepin4",
+      "version": "2.4.16-1deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "cups-ppdc",
-      "version": "2.4.2-5deepin4",
+      "version": "2.4.16-1deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "cups-server-common",
-      "version": "2.4.2-5deepin4",
+      "version": "2.4.16-1deepin4",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "curl",
-      "version": "8.11.0-0deepin1",
+      "version": "8.11.0-0deepin2",
       "architecture": "amd64"
     },
     {
@@ -328,7 +328,7 @@
     {
       "type": "deb",
       "name": "debconf",
-      "version": "1.5.79-deepin",
+      "version": "1.5.92",
       "architecture": "all"
     },
     {
@@ -340,7 +340,7 @@
     {
       "type": "deb",
       "name": "deepin-desktop-base",
-      "version": "2025.11.25",
+      "version": "2026.03.25",
       "architecture": "amd64"
     },
     {
@@ -352,7 +352,7 @@
     {
       "type": "deb",
       "name": "dictionaries-common",
-      "version": "1.30.10",
+      "version": "1.31.3",
       "architecture": "all"
     },
     {
@@ -364,7 +364,7 @@
     {
       "type": "deb",
       "name": "dirmngr",
-      "version": "2.4.5-2",
+      "version": "2.4.5-2deepin2",
       "architecture": "amd64"
     },
     {
@@ -388,7 +388,7 @@
     {
       "type": "deb",
       "name": "dpkg",
-      "version": "1.22.6deepin7",
+      "version": "1.22.6deepin10",
       "architecture": "amd64"
     },
     {
@@ -406,7 +406,7 @@
     {
       "type": "deb",
       "name": "eject",
-      "version": "2.40.4-3deepin4",
+      "version": "2.40.4-3deepin9",
       "architecture": "amd64"
     },
     {
@@ -418,25 +418,25 @@
     {
       "type": "deb",
       "name": "emacsen-common",
-      "version": "3.0.4",
+      "version": "3.0.8",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "fcitx5-frontend-gtk2",
-      "version": "5.1.0-1deepin0",
+      "version": "5.1.5-1deepin5",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "fcitx5-frontend-gtk3",
-      "version": "5.1.0-1deepin0",
+      "version": "5.1.5-1deepin5",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "fdisk",
-      "version": "2.40.4-3deepin4",
+      "version": "2.40.4-3deepin9",
       "architecture": "amd64"
     },
     {
@@ -454,13 +454,13 @@
     {
       "type": "deb",
       "name": "fontconfig",
-      "version": "2.15.0-2.3deepin1",
+      "version": "2.17.1-5",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "fontconfig-config",
-      "version": "2.15.0-2.3deepin1",
+      "version": "2.17.1-5",
       "architecture": "amd64"
     },
     {
@@ -502,13 +502,13 @@
     {
       "type": "deb",
       "name": "g++-12",
-      "version": "12.3.0-17deepin15",
+      "version": "12.3.0-17deepin17",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "gawk",
-      "version": "1:5.1.0-1",
+      "version": "1:5.1.0-1deepin1",
       "architecture": "amd64"
     },
     {
@@ -520,13 +520,13 @@
     {
       "type": "deb",
       "name": "gcc-12",
-      "version": "12.3.0-17deepin15",
+      "version": "12.3.0-17deepin17",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "gcc-12-base",
-      "version": "12.3.0-17deepin15",
+      "version": "12.3.0-17deepin17",
       "architecture": "amd64"
     },
     {
@@ -562,7 +562,7 @@
     {
       "type": "deb",
       "name": "gir1.2-atk-1.0",
-      "version": "2.50.0-1",
+      "version": "2.59.1-2deepin1",
       "architecture": "amd64"
     },
     {
@@ -574,25 +574,25 @@
     {
       "type": "deb",
       "name": "gir1.2-gdkpixbuf-2.0",
-      "version": "2.42.12+dfsg-5",
+      "version": "2.42.12+dfsg-5deepin1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "gir1.2-glib-2.0",
-      "version": "2.80.1-1deepin1",
+      "version": "2.80.1-1deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "gir1.2-harfbuzz-0.0",
-      "version": "8.0.1-1+rb1",
+      "version": "10.2.0-1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "gir1.2-pango-1.0",
-      "version": "1.52.2+ds-1",
+      "version": "1.56.0-3",
       "architecture": "amd64"
     },
     {
@@ -616,49 +616,49 @@
     {
       "type": "deb",
       "name": "gnupg",
-      "version": "2.4.5-2",
+      "version": "2.4.5-2deepin2",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "gnupg-l10n",
-      "version": "2.4.5-2",
+      "version": "2.4.5-2deepin2",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "gnutls-bin",
-      "version": "3.7.9-2+deb12u5",
+      "version": "3.7.9-2+deb12u5deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "gpg",
-      "version": "2.4.5-2",
+      "version": "2.4.5-2deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "gpg-agent",
-      "version": "2.4.5-2",
+      "version": "2.4.5-2deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "gpgconf",
-      "version": "2.4.5-2",
+      "version": "2.4.5-2deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "gpgsm",
-      "version": "2.4.5-2",
+      "version": "2.4.5-2deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "gpgv",
-      "version": "2.4.5-2",
+      "version": "2.4.5-2deepin2",
       "architecture": "amd64"
     },
     {
@@ -676,7 +676,7 @@
     {
       "type": "deb",
       "name": "gtk-update-icon-cache",
-      "version": "4.16.7+ds-1deepin1",
+      "version": "4.18.6+ds-2deepin1",
       "architecture": "amd64"
     },
     {
@@ -724,7 +724,7 @@
     {
       "type": "deb",
       "name": "keyboxd",
-      "version": "2.4.5-2",
+      "version": "2.4.5-2deepin2",
       "architecture": "amd64"
     },
     {
@@ -736,7 +736,7 @@
     {
       "type": "deb",
       "name": "kmod",
-      "version": "30+20230601-2.1",
+      "version": "30+20230601-2.2deepin2",
       "architecture": "amd64"
     },
     {
@@ -766,13 +766,13 @@
     {
       "type": "deb",
       "name": "libapparmor1",
-      "version": "3.0.13-2",
+      "version": "4.1.6-3",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libapt-pkg6.0",
-      "version": "2.8.0deepin5",
+      "version": "2.8.0deepin8",
       "architecture": "amd64"
     },
     {
@@ -796,19 +796,19 @@
     {
       "type": "deb",
       "name": "libasound2",
-      "version": "1.2.12-1deepin1",
+      "version": "1.2.15.3-1deepin3",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libasound2-data",
-      "version": "1.2.12-1deepin1",
+      "version": "1.2.15.3-1deepin3",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "libasound2-plugins",
-      "version": "1.2.6-deepin",
+      "version": "1.2.12-2",
       "architecture": "amd64"
     },
     {
@@ -826,13 +826,13 @@
     {
       "type": "deb",
       "name": "libatk-bridge2.0-0",
-      "version": "2.50.0-1",
+      "version": "2.59.1-2deepin1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libatk1.0-0",
-      "version": "2.50.0-1",
+      "version": "2.59.1-2deepin1",
       "architecture": "amd64"
     },
     {
@@ -844,7 +844,7 @@
     {
       "type": "deb",
       "name": "libatspi2.0-0",
-      "version": "2.50.0-1",
+      "version": "2.59.1-2deepin1",
       "architecture": "amd64"
     },
     {
@@ -886,13 +886,13 @@
     {
       "type": "deb",
       "name": "libavcodec60",
-      "version": "7:6.1.1-2deepin6",
+      "version": "7:6.1.1-2deepin9",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libavutil58",
-      "version": "7:6.1.1-2deepin6",
+      "version": "7:6.1.1-2deepin9",
       "architecture": "amd64"
     },
     {
@@ -904,19 +904,19 @@
     {
       "type": "deb",
       "name": "libbinutils",
-      "version": "2.41-6deepin10",
+      "version": "2.41-6deepin11",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libblkid1",
-      "version": "2.40.4-3deepin4",
+      "version": "2.40.4-3deepin9",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libbluetooth3",
-      "version": "5.71-1deepin3",
+      "version": "5.85-3deepin6",
       "architecture": "amd64"
     },
     {
@@ -940,43 +940,43 @@
     {
       "type": "deb",
       "name": "libc-bin",
-      "version": "2.38-6deepin17",
+      "version": "2.38-6deepin21",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libc-dev-bin",
-      "version": "2.38-6deepin17",
+      "version": "2.38-6deepin21",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libc-l10n",
-      "version": "2.38-6deepin17",
+      "version": "2.38-6deepin21",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "libc6",
-      "version": "2.38-6deepin17",
+      "version": "2.38-6deepin21",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libc6-dev",
-      "version": "2.38-6deepin17",
+      "version": "2.38-6deepin21",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libcairo-gobject2",
-      "version": "1.18.0-1",
+      "version": "1.18.4-3",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libcairo2",
-      "version": "1.18.0-1",
+      "version": "1.18.4-3",
       "architecture": "amd64"
     },
     {
@@ -988,13 +988,13 @@
     {
       "type": "deb",
       "name": "libcap2",
-      "version": "1:2.66-5",
+      "version": "1:2.75-10deepin1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libcap2-bin",
-      "version": "1:2.66-5",
+      "version": "1:2.75-10deepin1",
       "architecture": "amd64"
     },
     {
@@ -1041,6 +1041,12 @@
     },
     {
       "type": "deb",
+      "name": "libcpuinfo0",
+      "version": "0.0~git20250905.877328f-1",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
       "name": "libcrypt-dev",
       "version": "1:4.4.36-5",
       "architecture": "amd64"
@@ -1060,43 +1066,43 @@
     {
       "type": "deb",
       "name": "libctf-nobfd0",
-      "version": "2.41-6deepin10",
+      "version": "2.41-6deepin11",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libctf0",
-      "version": "2.41-6deepin10",
+      "version": "2.41-6deepin11",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libcups2",
-      "version": "2.4.2-5deepin4",
+      "version": "2.4.16-1deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libcupsfilters1",
-      "version": "1.28.17-3.1~deepin3",
+      "version": "1.28.17-3.1~deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libcupsimage2",
-      "version": "2.4.2-5deepin4",
+      "version": "2.4.16-1deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libcurl3-gnutls",
-      "version": "8.11.0-0deepin1",
+      "version": "8.11.0-0deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libcurl4",
-      "version": "8.11.0-0deepin1",
+      "version": "8.11.0-0deepin2",
       "architecture": "amd64"
     },
     {
@@ -1162,13 +1168,13 @@
     {
       "type": "deb",
       "name": "libdecor-0-0",
-      "version": "0.2.2-2",
+      "version": "0.2.5-1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libdeflate0",
-      "version": "1.18-1",
+      "version": "1.23-2",
       "architecture": "amd64"
     },
     {
@@ -1181,6 +1187,12 @@
       "type": "deb",
       "name": "libdevmapper1.02.1",
       "version": "2:1.02.201-1",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
+      "name": "libdnnl3.6",
+      "version": "3.9.1+ds-2deepin1",
       "architecture": "amd64"
     },
     {
@@ -1233,6 +1245,12 @@
     },
     {
       "type": "deb",
+      "name": "libebur128-1",
+      "version": "1.2.6-1",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
       "name": "libedit2",
       "version": "3.1-20230828-1",
       "architecture": "amd64"
@@ -1240,7 +1258,7 @@
     {
       "type": "deb",
       "name": "libegl-mesa0",
-      "version": "24.3.0-1deepin5",
+      "version": "24.3.0-1deepin7",
       "architecture": "amd64"
     },
     {
@@ -1264,7 +1282,7 @@
     {
       "type": "deb",
       "name": "libepoxy0",
-      "version": "1.5.9-2",
+      "version": "1.5.10-2deepin1",
       "architecture": "amd64"
     },
     {
@@ -1276,13 +1294,13 @@
     {
       "type": "deb",
       "name": "libexif12",
-      "version": "0.6.23-1",
+      "version": "0.6.25-1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libexpat1",
-      "version": "2.7.3-1",
+      "version": "2.7.4-1",
       "architecture": "amd64"
     },
     {
@@ -1294,13 +1312,13 @@
     {
       "type": "deb",
       "name": "libfcitx5gclient2",
-      "version": "5.1.0-1deepin0",
+      "version": "5.1.5-1deepin5",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libfdisk1",
-      "version": "2.40.4-3deepin4",
+      "version": "2.40.4-3deepin9",
       "architecture": "amd64"
     },
     {
@@ -1342,19 +1360,19 @@
     {
       "type": "deb",
       "name": "libfontconfig1",
-      "version": "2.15.0-2.3deepin1",
+      "version": "2.17.1-5",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libfontembed1",
-      "version": "1.28.17-3.1~deepin3",
+      "version": "1.28.17-3.1~deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libfontenc1",
-      "version": "1:1.1.4-1",
+      "version": "1:1.1.8-1",
       "architecture": "amd64"
     },
     {
@@ -1366,25 +1384,25 @@
     {
       "type": "deb",
       "name": "libfreetype6",
-      "version": "2.13.2+dfsg-1deepin1",
+      "version": "2.13.2+dfsg-1deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libfribidi0",
-      "version": "1.0.8-2.1",
+      "version": "1.0.16-1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libgbm1",
-      "version": "24.3.0-1deepin5",
+      "version": "24.3.0-1deepin7",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libgcc-12-dev",
-      "version": "12.3.0-17deepin15",
+      "version": "12.3.0-17deepin17",
       "architecture": "amd64"
     },
     {
@@ -1414,13 +1432,13 @@
     {
       "type": "deb",
       "name": "libgdk-pixbuf-2.0-0",
-      "version": "2.42.12+dfsg-5",
+      "version": "2.42.12+dfsg-5deepin1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libgdk-pixbuf2.0-common",
-      "version": "2.42.12+dfsg-5",
+      "version": "2.42.12+dfsg-5deepin1",
       "architecture": "all"
     },
     {
@@ -1432,13 +1450,13 @@
     {
       "type": "deb",
       "name": "libgl1-mesa-dri",
-      "version": "24.3.0-1deepin5",
+      "version": "24.3.0-1deepin7",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libglapi-mesa",
-      "version": "24.3.0-1deepin5",
+      "version": "24.3.0-1deepin7",
       "architecture": "amd64"
     },
     {
@@ -1456,19 +1474,19 @@
     {
       "type": "deb",
       "name": "libglib2.0-0",
-      "version": "2.80.1-1deepin1",
+      "version": "2.80.1-1deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libglib2.0-bin",
-      "version": "2.80.1-1deepin1",
+      "version": "2.80.1-1deepin4",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libglib2.0-data",
-      "version": "2.80.1-1deepin1",
+      "version": "2.80.1-1deepin4",
       "architecture": "all"
     },
     {
@@ -1480,7 +1498,7 @@
     {
       "type": "deb",
       "name": "libglu1-mesa",
-      "version": "9.0.1-1",
+      "version": "9.0.2-1.1",
       "architecture": "amd64"
     },
     {
@@ -1492,7 +1510,7 @@
     {
       "type": "deb",
       "name": "libglx-mesa0",
-      "version": "24.3.0-1deepin5",
+      "version": "24.3.0-1deepin7",
       "architecture": "amd64"
     },
     {
@@ -1510,13 +1528,13 @@
     {
       "type": "deb",
       "name": "libgnutls-dane0",
-      "version": "3.7.9-2+deb12u5",
+      "version": "3.7.9-2+deb12u5deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libgnutls30",
-      "version": "3.7.9-2+deb12u5",
+      "version": "3.7.9-2+deb12u5deepin2",
       "architecture": "amd64"
     },
     {
@@ -1534,7 +1552,7 @@
     {
       "type": "deb",
       "name": "libgprofng0",
-      "version": "2.41-6deepin10",
+      "version": "2.41-6deepin11",
       "architecture": "amd64"
     },
     {
@@ -1564,7 +1582,7 @@
     {
       "type": "deb",
       "name": "libgsm1",
-      "version": "1.0.18-2",
+      "version": "1.0.22-1",
       "architecture": "amd64"
     },
     {
@@ -1576,7 +1594,7 @@
     {
       "type": "deb",
       "name": "libgstreamer-plugins-base1.0-0",
-      "version": "1.24.6-1",
+      "version": "1.24.13-0deepin1",
       "architecture": "amd64"
     },
     {
@@ -1612,25 +1630,25 @@
     {
       "type": "deb",
       "name": "libharfbuzz-gobject0",
-      "version": "8.0.1-1+rb1",
+      "version": "10.2.0-1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libharfbuzz-icu0",
-      "version": "8.0.1-1+rb1",
+      "version": "10.2.0-1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libharfbuzz-subset0",
-      "version": "8.0.1-1+rb1",
+      "version": "10.2.0-1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libharfbuzz0b",
-      "version": "8.0.1-1+rb1",
+      "version": "10.2.0-1",
       "architecture": "amd64"
     },
     {
@@ -1714,7 +1732,7 @@
     {
       "type": "deb",
       "name": "libidn2-0",
-      "version": "2.3.2-2",
+      "version": "2.3.8-2deepin1",
       "architecture": "amd64"
     },
     {
@@ -1834,7 +1852,7 @@
     {
       "type": "deb",
       "name": "libkmod2",
-      "version": "30+20230601-2.1",
+      "version": "30+20230601-2.2deepin2",
       "architecture": "amd64"
     },
     {
@@ -1858,7 +1876,7 @@
     {
       "type": "deb",
       "name": "liblc3-1",
-      "version": "1.0.3-4",
+      "version": "1.1.3+dfsg-1",
       "architecture": "amd64"
     },
     {
@@ -1882,7 +1900,7 @@
     {
       "type": "deb",
       "name": "libldap-2.5-0",
-      "version": "2.5.13+dfsg-5",
+      "version": "2.5.13+dfsg-5deepin1",
       "architecture": "amd64"
     },
     {
@@ -1900,7 +1918,7 @@
     {
       "type": "deb",
       "name": "libllvm17",
-      "version": "1:17.0.6-5deepin6",
+      "version": "1:17.0.6-5deepin7",
       "architecture": "amd64"
     },
     {
@@ -1936,7 +1954,7 @@
     {
       "type": "deb",
       "name": "liblz4-1",
-      "version": "1.9.3-deepin",
+      "version": "1.10.0-4",
       "architecture": "amd64"
     },
     {
@@ -1960,7 +1978,7 @@
     {
       "type": "deb",
       "name": "libmd0",
-      "version": "1.0.4-1",
+      "version": "1.1.0-2",
       "architecture": "amd64"
     },
     {
@@ -1978,7 +1996,7 @@
     {
       "type": "deb",
       "name": "libmount1",
-      "version": "2.40.4-3deepin4",
+      "version": "2.40.4-3deepin9",
       "architecture": "amd64"
     },
     {
@@ -1990,7 +2008,7 @@
     {
       "type": "deb",
       "name": "libmpc3",
-      "version": "1.2.1-1",
+      "version": "1.3.1-1deepin1",
       "architecture": "amd64"
     },
     {
@@ -2001,8 +2019,14 @@
     },
     {
       "type": "deb",
+      "name": "libmpg123-0",
+      "version": "1.32.8-1deepin1",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
       "name": "libmysofa1",
-      "version": "1.2.1~dfsg0-1",
+      "version": "1.3.3+dfsg-1",
       "architecture": "amd64"
     },
     {
@@ -2014,13 +2038,13 @@
     {
       "type": "deb",
       "name": "libncurses6",
-      "version": "6.4-4deepin3",
+      "version": "6.5+20250216-2deepin1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libncursesw6",
-      "version": "6.4-4deepin3",
+      "version": "6.5+20250216-2deepin1",
       "architecture": "amd64"
     },
     {
@@ -2050,7 +2074,7 @@
     {
       "type": "deb",
       "name": "libnghttp2-14",
-      "version": "1.59.0-1deepin0",
+      "version": "1.59.0-1deepin1",
       "architecture": "amd64"
     },
     {
@@ -2098,25 +2122,49 @@
     {
       "type": "deb",
       "name": "libnss-myhostname",
-      "version": "255.2-4deepin19",
+      "version": "255.2-4deepin25",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libnss3",
-      "version": "2:3.105-2",
+      "version": "2:3.105-2deepin1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libnuma1",
-      "version": "2.0.14-3deepin1",
+      "version": "2.0.19-1deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libogg0",
       "version": "1.3.5-3",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
+      "name": "libonnx1",
+      "version": "1.17.0-3deepin1",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
+      "name": "libonnxruntime-providers",
+      "version": "1.21.0+dfsg-3deepin3",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
+      "name": "libonnxruntime1.21",
+      "version": "1.21.0+dfsg-3deepin3",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
+      "name": "libopenfec1",
+      "version": "1.4.2.12+dfsg-1",
       "architecture": "amd64"
     },
     {
@@ -2140,7 +2188,7 @@
     {
       "type": "deb",
       "name": "liborc-0.4-0",
-      "version": "1:0.4.32-2",
+      "version": "1:0.4.32-2deepin1",
       "architecture": "amd64"
     },
     {
@@ -2170,7 +2218,7 @@
     {
       "type": "deb",
       "name": "libpam-systemd",
-      "version": "255.2-4deepin19",
+      "version": "255.2-4deepin25",
       "architecture": "amd64"
     },
     {
@@ -2182,25 +2230,25 @@
     {
       "type": "deb",
       "name": "libpango-1.0-0",
-      "version": "1.52.2+ds-1",
+      "version": "1.56.0-3",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libpangocairo-1.0-0",
-      "version": "1.52.2+ds-1",
+      "version": "1.56.0-3",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libpangoft2-1.0-0",
-      "version": "1.52.2+ds-1",
+      "version": "1.56.0-3",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libpangoxft-1.0-0",
-      "version": "1.52.2+ds-1",
+      "version": "1.56.0-3",
       "architecture": "amd64"
     },
     {
@@ -2212,7 +2260,7 @@
     {
       "type": "deb",
       "name": "libpciaccess0",
-      "version": "0.16-1",
+      "version": "0.18.1-2",
       "architecture": "amd64"
     },
     {
@@ -2236,13 +2284,13 @@
     {
       "type": "deb",
       "name": "libpipewire-0.3-0",
-      "version": "1.2.5-1deepin16",
+      "version": "1.6.0-1deepin9",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libpipewire-0.3-modules",
-      "version": "1.2.5-1deepin16",
+      "version": "1.6.0-1deepin9",
       "architecture": "amd64"
     },
     {
@@ -2254,7 +2302,7 @@
     {
       "type": "deb",
       "name": "libpng16-16",
-      "version": "1.6.45-1deepin1",
+      "version": "1.6.53-1deepin5",
       "architecture": "amd64"
     },
     {
@@ -2272,7 +2320,7 @@
     {
       "type": "deb",
       "name": "libpopt0",
-      "version": "1.18-3",
+      "version": "1.19+dfsg-2deepin1",
       "architecture": "amd64"
     },
     {
@@ -2289,6 +2337,12 @@
     },
     {
       "type": "deb",
+      "name": "libprotobuf32",
+      "version": "3.21.12-8deepin2",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
       "name": "libproxy1v5",
       "version": "0.5.9-1",
       "architecture": "amd64"
@@ -2296,7 +2350,13 @@
     {
       "type": "deb",
       "name": "libpsl5",
-      "version": "0.21.0-1.2",
+      "version": "0.21.2-1",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
+      "name": "libpthreadpool0",
+      "version": "0.0~git20240616.560c60d-1",
       "architecture": "amd64"
     },
     {
@@ -2326,19 +2386,19 @@
     {
       "type": "deb",
       "name": "libpython3.12",
-      "version": "3.12.11-0deepin1",
+      "version": "3.12.13-0deepin1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libpython3.12-minimal",
-      "version": "3.12.11-0deepin1",
+      "version": "3.12.13-0deepin1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libpython3.12-stdlib",
-      "version": "3.12.11-0deepin1",
+      "version": "3.12.13-0deepin1",
       "architecture": "amd64"
     },
     {
@@ -2367,6 +2427,12 @@
     },
     {
       "type": "deb",
+      "name": "libre2-10",
+      "version": "20230301-3",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
       "name": "libreadline8",
       "version": "8.2-3",
       "architecture": "amd64"
@@ -2379,8 +2445,8 @@
     },
     {
       "type": "deb",
-      "name": "libroc0.3",
-      "version": "0.3.0+dfsg-5",
+      "name": "libroc0.4",
+      "version": "0.4.0+dfsg-5",
       "architecture": "amd64"
     },
     {
@@ -2470,7 +2536,7 @@
     {
       "type": "deb",
       "name": "libsframe1",
-      "version": "2.41-6deepin10",
+      "version": "2.41-6deepin11",
       "architecture": "amd64"
     },
     {
@@ -2488,7 +2554,7 @@
     {
       "type": "deb",
       "name": "libsigc++-2.0-0v5",
-      "version": "2.10.8-1",
+      "version": "2.12.1-4",
       "architecture": "amd64"
     },
     {
@@ -2506,7 +2572,7 @@
     {
       "type": "deb",
       "name": "libsmartcols1",
-      "version": "2.40.4-3deepin4",
+      "version": "2.40.4-3deepin9",
       "architecture": "amd64"
     },
     {
@@ -2518,13 +2584,13 @@
     {
       "type": "deb",
       "name": "libsndfile1",
-      "version": "1.0.31-2",
+      "version": "1.2.2-4deepin1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libsord-0-0",
-      "version": "0.16.14+git221008-1",
+      "version": "0.16.18-1",
       "architecture": "amd64"
     },
     {
@@ -2548,13 +2614,19 @@
     {
       "type": "deb",
       "name": "libspa-0.2-bluetooth",
-      "version": "1.2.5-1deepin16",
+      "version": "1.6.0-1deepin9",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libspa-0.2-modules",
-      "version": "1.2.5-1deepin16",
+      "version": "1.6.0-1deepin9",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
+      "name": "libspandsp2",
+      "version": "0.0.6+dfsg-2",
       "architecture": "amd64"
     },
     {
@@ -2578,7 +2650,7 @@
     {
       "type": "deb",
       "name": "libsratom-0-0",
-      "version": "0.6.8-1",
+      "version": "0.6.18-1",
       "architecture": "amd64"
     },
     {
@@ -2596,13 +2668,13 @@
     {
       "type": "deb",
       "name": "libssl3",
-      "version": "3.2.4-0deepin2",
+      "version": "3.2.4-0deepin7",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libstdc++-12-dev",
-      "version": "12.3.0-17deepin15",
+      "version": "12.3.0-17deepin17",
       "architecture": "amd64"
     },
     {
@@ -2620,25 +2692,25 @@
     {
       "type": "deb",
       "name": "libswresample4",
-      "version": "7:6.1.1-2deepin6",
+      "version": "7:6.1.1-2deepin9",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libsystemd-shared",
-      "version": "255.2-4deepin19",
+      "version": "255.2-4deepin25",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libsystemd0",
-      "version": "255.2-4deepin19",
+      "version": "255.2-4deepin25",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libtasn1-6",
-      "version": "4.18.0-4",
+      "version": "4.21.0-1",
       "architecture": "amd64"
     },
     {
@@ -2649,9 +2721,21 @@
     },
     {
       "type": "deb",
+      "name": "libtext-charwidth-perl",
+      "version": "0.04-11",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
       "name": "libtext-iconv-perl",
       "version": "1.7-deepin1",
       "architecture": "amd64"
+    },
+    {
+      "type": "deb",
+      "name": "libtext-wrapi18n-perl",
+      "version": "0.06-9",
+      "architecture": "all"
     },
     {
       "type": "deb",
@@ -2674,7 +2758,7 @@
     {
       "type": "deb",
       "name": "libtiff6",
-      "version": "4.7.1-1",
+      "version": "4.7.1-1deepin1",
       "architecture": "amd64"
     },
     {
@@ -2686,25 +2770,25 @@
     {
       "type": "deb",
       "name": "libtinfo6",
-      "version": "6.4-4deepin3",
+      "version": "6.5+20250216-2deepin1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libtirpc-common",
-      "version": "1.3.2-2",
+      "version": "1.3.6+ds-1deepin1",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "libtirpc-dev",
-      "version": "1.3.2-2",
+      "version": "1.3.6+ds-1deepin1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libtirpc3",
-      "version": "1.3.2-2",
+      "version": "1.3.6+ds-1deepin1",
       "architecture": "amd64"
     },
     {
@@ -2722,61 +2806,61 @@
     {
       "type": "deb",
       "name": "libtss2-esys-3.0.2-0",
-      "version": "4.0.1-3deepin1",
+      "version": "4.0.1-3deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libtss2-mu0",
-      "version": "4.0.1-3deepin1",
+      "version": "4.0.1-3deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libtss2-sys1",
-      "version": "4.0.1-3deepin1",
+      "version": "4.0.1-3deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libtss2-tcti-cmd0",
-      "version": "4.0.1-3deepin1",
+      "version": "4.0.1-3deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libtss2-tcti-device0",
-      "version": "4.0.1-3deepin1",
+      "version": "4.0.1-3deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libtss2-tcti-libtpms0",
-      "version": "4.0.1-3deepin1",
+      "version": "4.0.1-3deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libtss2-tcti-mssim0",
-      "version": "4.0.1-3deepin1",
+      "version": "4.0.1-3deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libtss2-tcti-spi-helper0",
-      "version": "4.0.1-3deepin1",
+      "version": "4.0.1-3deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libtss2-tcti-swtpm0",
-      "version": "4.0.1-3deepin1",
+      "version": "4.0.1-3deepin2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libtss2-tctildr0",
-      "version": "4.0.1-3deepin1",
+      "version": "4.0.1-3deepin2",
       "architecture": "amd64"
     },
     {
@@ -2800,7 +2884,7 @@
     {
       "type": "deb",
       "name": "libudev1",
-      "version": "255.2-4deepin19",
+      "version": "255.2-4deepin25",
       "architecture": "amd64"
     },
     {
@@ -2836,13 +2920,13 @@
     {
       "type": "deb",
       "name": "libusb-1.0-0",
-      "version": "2:1.0.24-3",
+      "version": "2:1.0.28-1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libuuid1",
-      "version": "2.40.4-3deepin4",
+      "version": "2.40.4-3deepin9",
       "architecture": "amd64"
     },
     {
@@ -2908,7 +2992,7 @@
     {
       "type": "deb",
       "name": "libvpx7",
-      "version": "1.11.0-2",
+      "version": "1.12.0-1+deb12u5",
       "architecture": "amd64"
     },
     {
@@ -2968,7 +3052,7 @@
     {
       "type": "deb",
       "name": "libwrap0",
-      "version": "7.6.q-31",
+      "version": "7.6.q-36",
       "architecture": "amd64"
     },
     {
@@ -3196,19 +3280,19 @@
     {
       "type": "deb",
       "name": "libxcursor1",
-      "version": "1:1.2.0-2",
+      "version": "1:1.2.3-1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libxdamage1",
-      "version": "1:1.1.5-2",
+      "version": "1:1.1.7-1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "libxdmcp6",
-      "version": "1:1.1.2-3",
+      "version": "1:1.1.5-1",
       "architecture": "amd64"
     },
     {
@@ -3226,7 +3310,7 @@
     {
       "type": "deb",
       "name": "libxft2",
-      "version": "2.3.2-2",
+      "version": "2.3.6-1",
       "architecture": "amd64"
     },
     {
@@ -3275,6 +3359,12 @@
       "type": "deb",
       "name": "libxmu6",
       "version": "2:1.1.3-3",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
+      "name": "libxnnpack0.20241108",
+      "version": "0.0~git20241108.4ea82e5-2",
       "architecture": "amd64"
     },
     {
@@ -3345,6 +3435,12 @@
     },
     {
       "type": "deb",
+      "name": "libzix-0-0",
+      "version": "0.8.0-1",
+      "architecture": "amd64"
+    },
+    {
+      "type": "deb",
       "name": "libzstd1",
       "version": "1.5.6+dfsg-1",
       "architecture": "amd64"
@@ -3352,13 +3448,13 @@
     {
       "type": "deb",
       "name": "libzvbi-common",
-      "version": "0.2.43-2deepin1",
+      "version": "0.2.44-1deepin1",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "libzvbi0",
-      "version": "0.2.43-2deepin1",
+      "version": "0.2.44-1deepin1",
       "architecture": "amd64"
     },
     {
@@ -3370,19 +3466,19 @@
     {
       "type": "deb",
       "name": "linux-libc-dev",
-      "version": "25.01.01.06",
+      "version": "25.01.01.20",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "locales",
-      "version": "2.38-6deepin17",
+      "version": "2.38-6deepin21",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "login",
-      "version": "1:4.16.0-2+really2.40.4-3deepin4",
+      "version": "1:4.16.0-2+really2.40.4-3deepin9",
       "architecture": "amd64"
     },
     {
@@ -3424,49 +3520,49 @@
     {
       "type": "deb",
       "name": "media-types",
-      "version": "4.0.0",
+      "version": "13.0.0",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "mesa-libgallium",
-      "version": "24.3.0-1deepin5",
+      "version": "24.3.0-1deepin7",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "mesa-va-drivers",
-      "version": "24.3.0-1deepin5",
+      "version": "24.3.0-1deepin7",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "mesa-vdpau-drivers",
-      "version": "24.3.0-1deepin5",
+      "version": "24.3.0-1deepin7",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "mesa-vulkan-drivers",
-      "version": "24.3.0-1deepin5",
+      "version": "24.3.0-1deepin7",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "mount",
-      "version": "2.40.4-3deepin4",
+      "version": "2.40.4-3deepin9",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "ncurses-base",
-      "version": "6.4-4deepin3",
+      "version": "6.5+20250216-2deepin1",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "ncurses-bin",
-      "version": "6.4-4deepin3",
+      "version": "6.5+20250216-2deepin1",
       "architecture": "amd64"
     },
     {
@@ -3490,7 +3586,7 @@
     {
       "type": "deb",
       "name": "openssl",
-      "version": "3.2.4-0deepin2",
+      "version": "3.2.4-0deepin7",
       "architecture": "amd64"
     },
     {
@@ -3544,31 +3640,31 @@
     {
       "type": "deb",
       "name": "pinentry-curses",
-      "version": "1.2.0-2",
+      "version": "1.3.1-2",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "pipewire",
-      "version": "1.2.5-1deepin16",
+      "version": "1.6.0-1deepin9",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "pipewire-bin",
-      "version": "1.2.5-1deepin16",
+      "version": "1.6.0-1deepin9",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "pipewire-pulse",
-      "version": "1.2.5-1deepin16",
+      "version": "1.6.0-1deepin9",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "poppler-data",
-      "version": "0.4.11-1",
+      "version": "0.4.12-1",
       "architecture": "all"
     },
     {
@@ -3616,13 +3712,13 @@
     {
       "type": "deb",
       "name": "python3.12",
-      "version": "3.12.11-0deepin1",
+      "version": "3.12.13-0deepin1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "python3.12-minimal",
-      "version": "3.12.11-0deepin1",
+      "version": "3.12.13-0deepin1",
       "architecture": "amd64"
     },
     {
@@ -3634,13 +3730,13 @@
     {
       "type": "deb",
       "name": "rfkill",
-      "version": "2.40.4-3deepin4",
+      "version": "2.40.4-3deepin9",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "rpcsvc-proto",
-      "version": "1.4.2-4",
+      "version": "1.4.3-1",
       "architecture": "amd64"
     },
     {
@@ -3670,31 +3766,31 @@
     {
       "type": "deb",
       "name": "ssl-cert",
-      "version": "1.1.1",
+      "version": "1.1.3",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "systemd",
-      "version": "255.2-4deepin19",
+      "version": "255.2-4deepin25",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "systemd-dev",
-      "version": "255.2-4deepin19",
+      "version": "255.2-4deepin25",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "systemd-sysv",
-      "version": "255.2-4deepin19",
+      "version": "255.2-4deepin25",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "systemd-timesyncd",
-      "version": "255.2-4deepin19",
+      "version": "255.2-4deepin25",
       "architecture": "amd64"
     },
     {
@@ -3718,25 +3814,25 @@
     {
       "type": "deb",
       "name": "tzdata",
-      "version": "2023d-1deepin1",
+      "version": "2025b-4+deb13u1deepin1",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "tzdata-legacy",
-      "version": "2023d-1deepin1",
+      "version": "2025b-4+deb13u1deepin1",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "ucf",
-      "version": "3.0043",
+      "version": "3.0052",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "udev",
-      "version": "255.2-4deepin19",
+      "version": "255.2-4deepin25",
       "architecture": "amd64"
     },
     {
@@ -3754,7 +3850,7 @@
     {
       "type": "deb",
       "name": "util-linux",
-      "version": "2.40.4-3deepin4",
+      "version": "2.40.4-3deepin9",
       "architecture": "amd64"
     },
     {
@@ -3766,31 +3862,31 @@
     {
       "type": "deb",
       "name": "x11-xkb-utils",
-      "version": "7.7+5-deepin",
+      "version": "7.7+9",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "xdg-user-dirs",
-      "version": "0.17-2",
+      "version": "0.19-1",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "xfonts-encodings",
-      "version": "1:1.0.4-2.1deepin1",
+      "version": "1:1.0.4-2.2",
       "architecture": "all"
     },
     {
       "type": "deb",
       "name": "xfonts-utils",
-      "version": "1:7.7+6-deepin",
+      "version": "1:7.7+7",
       "architecture": "amd64"
     },
     {
       "type": "deb",
       "name": "xkb-data",
-      "version": "2.38-2deepin1",
+      "version": "2.42-1",
       "architecture": "all"
     },
     {
